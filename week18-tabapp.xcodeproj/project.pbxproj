@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		142E088524D1FAA0002C4CC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142E088424D1FAA0002C4CC3 /* AppDelegate.swift */; };
-		142E088724D1FAA0002C4CC3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142E088624D1FAA0002C4CC3 /* FirstViewController.swift */; };
-		142E088924D1FAA0002C4CC3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142E088824D1FAA0002C4CC3 /* SecondViewController.swift */; };
 		142E088C24D1FAA0002C4CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142E088A24D1FAA0002C4CC3 /* Main.storyboard */; };
 		142E088E24D1FAA2002C4CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142E088D24D1FAA2002C4CC3 /* Assets.xcassets */; };
 		142E089124D1FAA2002C4CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142E088F24D1FAA2002C4CC3 /* LaunchScreen.storyboard */; };
+		143A779D24D8A319002E0F92 /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143A779C24D8A319002E0F92 /* DonateViewController.swift */; };
+		143A77A124D8B309002E0F92 /* ContributeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143A77A024D8B309002E0F92 /* ContributeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		142E088124D1FAA0002C4CC3 /* week18-tabapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "week18-tabapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		142E088424D1FAA0002C4CC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		142E088624D1FAA0002C4CC3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		142E088824D1FAA0002C4CC3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		142E088B24D1FAA0002C4CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		142E088D24D1FAA2002C4CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		142E089024D1FAA2002C4CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		142E089224D1FAA2002C4CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143A779C24D8A319002E0F92 /* DonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
+		143A77A024D8B309002E0F92 /* ContributeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				142E088424D1FAA0002C4CC3 /* AppDelegate.swift */,
-				142E088624D1FAA0002C4CC3 /* FirstViewController.swift */,
-				142E088824D1FAA0002C4CC3 /* SecondViewController.swift */,
 				142E088A24D1FAA0002C4CC3 /* Main.storyboard */,
 				142E088D24D1FAA2002C4CC3 /* Assets.xcassets */,
 				142E088F24D1FAA2002C4CC3 /* LaunchScreen.storyboard */,
 				142E089224D1FAA2002C4CC3 /* Info.plist */,
+				143A779C24D8A319002E0F92 /* DonateViewController.swift */,
+				143A77A024D8B309002E0F92 /* ContributeViewController.swift */,
 			);
 			path = "week18-tabapp";
 			sourceTree = "<group>";
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142E088924D1FAA0002C4CC3 /* SecondViewController.swift in Sources */,
+				143A779D24D8A319002E0F92 /* DonateViewController.swift in Sources */,
 				142E088524D1FAA0002C4CC3 /* AppDelegate.swift in Sources */,
-				142E088724D1FAA0002C4CC3 /* FirstViewController.swift in Sources */,
+				143A77A124D8B309002E0F92 /* ContributeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
